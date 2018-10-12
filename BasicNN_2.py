@@ -23,8 +23,9 @@ batch_size = 1000
 train_file = "data\eye_state.csv"
 scalarX = RobustScaler()
 INPUT_LAYER_NEURONS = 32
-NUM_HIDDEN_LAYERS = 2
-HIDDEN_LAYER_UNITS = 16
+# 2,16
+NUM_HIDDEN_LAYERS = 0
+HIDDEN_LAYER_UNITS = 0
 
 
 # Functions

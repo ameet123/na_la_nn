@@ -46,7 +46,7 @@ X_train, X_test, Y_train, Y_test = readNp(train_file, LABEL_POS)
 print("Total rows:{} Train:{} Test:{} TrainingLabels:{}".format(X_train.shape[0] + X_test.shape[0], X_train.shape[0],
                                                                 X_test.shape[0], Y_train.shape))
 
-model = define_model(X_train.shape[1], 128, 1, 64, 10, 'sigmoid')
+model = define_model(X_train.shape[1], 128, 1, 0, 0, 'sigmoid')
 print(model.summary())
 
 start = timer()
